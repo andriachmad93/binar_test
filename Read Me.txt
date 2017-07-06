@@ -1,0 +1,8 @@
+2. -  keamanan Mobile Apps : solusi terbaik adalah memberikan enkripsi pada customer.
+komponen yang hrs dienkrip yaitu berupa jumlah saldo dan password,lokasi yg dituju. alasan lokasi dituju hrs dienkripsi krn apabila ada yg
+mengungkap lokasi, dikhawatirkan stlh sampai tmpt dituju, diikut org lain atau diawasi org lain jika terjadi kejahatan, sedangkan utk saldo dan password
+saldo akan terkuras apabila hacker mengetahui password customer.
+
+- solusi terbaik adalah memberikan enkripsi pada customer.
+komponen yang hrs dienkripsi yaitu berupa jumlah saldo dan password. apabila saldo dr pihak customer diketahui tukang ojek dan hacker, maka mudah atau rawan diretas
+dari tukang ojek ketika menerima order serta diretas hacker yg menggunakan aplikasi tukang ojek sekalipun
