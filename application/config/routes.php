@@ -67,5 +67,4 @@ $route['example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'example/users/id/$1/fo
 $route['order'] = 'Order/Order';
 
 //get_by
-$route['user_servis_update/(:num)'] = 'User_Servis_Update/User_Servis_Update/id/$1';
-$route['servis/(:num)'] = 'servis/servis/id/$1';
+$route['order/(:num)'] = 'order/order/id/$1';

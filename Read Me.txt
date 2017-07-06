@@ -6,3 +6,5 @@ saldo akan terkuras apabila hacker mengetahui password customer.
 - solusi terbaik adalah memberikan enkripsi pada customer.
 komponen yang hrs dienkripsi yaitu berupa jumlah saldo dan password. apabila saldo dr pihak customer diketahui tukang ojek dan hacker, maka mudah atau rawan diretas
 dari tukang ojek ketika menerima order serta diretas hacker yg menggunakan aplikasi tukang ojek sekalipun
+
+3. import ojek.sql ke phpmyadmin, klik link method get http://localhost/binar_test/order

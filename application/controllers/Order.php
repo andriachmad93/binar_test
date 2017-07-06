@@ -18,7 +18,7 @@ class Order extends REST_Controller{
 
 	public function Order_get()
 	{
-		$Orderes = $this->Model_basic->select_all_api('Order');
+		$Orderes = $this->Model_basic->select_all_api('order');
         $id = $this->get('id');
 
         if ($id === NULL) {
@@ -69,7 +69,7 @@ class Order extends REST_Controller{
 				'id_ojek' => 0,
 				'lokasi_jemput' => $this->input->post('lokasi_jemput'),
 				'lokasi_tujuan' => $this->input->post('lokasi_tujuan'),
-                'status_order' => 0
+                'status' => 0
 				);
 			$this->Model_basic->insert_all('order',$data);
 			$this->set_response($data, REST_Controller::HTTP_CREATED);
